@@ -1,0 +1,22 @@
+INSERT INTO blogful_articles (title, date_published, content)
+VALUES
+    ('One Sunny Day', now() - '40 days'::INTERVAL, 
+    'Blue sky is good when you look at it from the inside of air-conditioned building.'),
+    ('Learning JS', now() - '38 days'::INTERVAL, 
+    'If you tell me you need to start again, probably I will not even try.'),
+    ('Do you remember React', now() - '30 days'::INTERVAL, 
+    'I do not know if I remember anything about React. It has been a while working on it.'),
+    ('Node and Express', now() - '25 days'::INTERVAL, 
+    'Am I learning anything, or just doing copy-and-paste of bunch of codes?'),
+    ('AstroPad and Photoshop', now() - '21 days'::INTERVAL, 
+    'Drawing might be some escape from the work and programming, or another burden.'),
+    ('Piano to Seoul', now() - '17 days'::INTERVAL, 
+    'Work, programming and dancing are good enough activities during weekdays.'),
+    ('Books, so many books', now() - '15 days'::INTERVAL, 
+    'When will you read all those?'),
+    ('Weekends are fun', now() - '12 days'::INTERVAL, 
+    'Hanging out with kids and Eve all the time!'),
+    ('DB study', now() - '5 days'::INTERVAL, 
+    'Seeding, seeding, seeding the data...'),
+    ('Vacation is coming up soon!!', now() - '1 days'::INTERVAL, 
+    'We will have so much fun at the beach!!!!');
